@@ -1,8 +1,16 @@
 ---
 layout: default
+title: 404
+hide-in-nav: true
+description: "你来到了没有知识的荒原 :("
+header-img: "img/404-bg.jpg"
+permalink: /404.html
 ---
 
-<div class="container text-center">
-    <p>The page you are looking for cannot be found.</p>
-    <h2>404</h2>
-</div>
+
+<!-- Page Header -->
+{% include intro-header.html type="page" short='true' %}
+
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
